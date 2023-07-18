@@ -1,16 +1,66 @@
-# ny_times_app
 
-News application.
+# Ny Times Most Popular
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### App Images
+* [Home View Screenshot](https://prnt.sc/9XFy_IhArmtC)
+* [Detail View Screenshot](https://prnt.sc/liYVCoaUAfMi)
+Ny Times Most Popular latest 30 day news.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  
+### Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- On the home page, a list of news articles is displayed.
+- When a user taps on a news card, they are navigated to a details page showing the full article.
+
+  
+### Installation
+
+1. Clone this project:
+
+```bash
+git clone https://github.com/ahmet-ozberk/ny_times_app.git
+```
+2. Navigate to the project directory:
+```bash
+cd ny_times_app-main
+```
+3.Install the required dependencies:
+```bash
+flutter pub get
+```
+4.Run the application:
+```bash
+flutter run
+```
+
+  ## Technologies Used
+A specially developed architecture is used in the application. I used Riverpod as state management method and Dio for request handling.
+
+## Contributing
+1. Fork this repository and create a local copy.
+2. Create a new feature branch:
+```bash
+git checkout -b new-feature
+```
+3.Commit your changes:
+```bash
+git checkout -b new-feature
+```
+4.Push your branch:
+```bash
+git push origin new-feature
+```
+Open a Pull Request
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+
+
+
+
+
+
+  
